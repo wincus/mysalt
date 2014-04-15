@@ -1,2 +1,3 @@
-true:
-  cmd.run
+dummy:
+  cmd.run:
+    - name: true
