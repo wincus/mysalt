@@ -1,3 +1,2 @@
-dummy:
-  cmd.run:
-    - name: true
+echo "dummy":
+  cmd.run
