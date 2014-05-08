@@ -1,2 +1,23 @@
-vim:
-  pkg.installed
+mypkgs:
+  pkg.installed:
+    - pkgs:
+      - vim
+      - telnet
+      - nmap
+      - lftp
+      - editmoin
+      - vorbis-tools
+      - subversion
+      - youtube-dl
+      - mplayer
+      - revelation
+      - git
+      - tcpdump
+      - irssi
+      - whois
+      - dnsutils
+      - synergy
+      - openssh-server
+      - curl
+      - xsel
+      - clipit
