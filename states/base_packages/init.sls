@@ -1,7 +1,6 @@
 mypkgs:
   pkg.installed:
     - pkgs:
-      - vim
       - telnet
       - nmap
       - lftp

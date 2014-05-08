@@ -1,8 +1,8 @@
-{% set virtual = salt['grains.get']('virtual','') %}
-
 base:
   'inspiron':
+    - vim
     - base_packages
     {% if grains['virtual'] == 'physical' %}
     - kvm
     {% endif %}
+    - byobu
