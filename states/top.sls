@@ -7,3 +7,4 @@ base:
     {% endif %}
     - byobu
     - openssh
+    - bash
