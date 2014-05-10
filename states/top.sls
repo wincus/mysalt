@@ -6,3 +6,4 @@ base:
     - kvm
     {% endif %}
     - byobu
+    - openssh
