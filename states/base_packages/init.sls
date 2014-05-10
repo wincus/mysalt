@@ -20,3 +20,5 @@ mypkgs:
       - curl
       - xsel
       - clipit
+      - mutt
+      - mc
