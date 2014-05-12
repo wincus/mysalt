@@ -22,3 +22,5 @@ mypkgs:
       - clipit
       - mutt
       - mc
+      - skype # this requires trusty/partner repository enabled
+              # aka deb http://archive.canonical.com/ubuntu trusty partner
