@@ -8,3 +8,9 @@ base:
     - byobu
     - openssh
     - bash
+  'mac':
+    - vim
+    - base_packages
+    - byobu
+    - openssh
+    - bash
