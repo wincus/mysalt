@@ -8,6 +8,8 @@ base:
     - byobu
     - openssh
     - bash
+    - mopidy
+
   'mac':
     - vim
     - base_packages
