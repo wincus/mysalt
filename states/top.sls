@@ -18,4 +18,4 @@ base:
     - openssh
     - bash
     - mopidy
-    - irsii
+    - irssi
