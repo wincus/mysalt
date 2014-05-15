@@ -1,12 +1,7 @@
 irssi:
   pkg.installed
 
-irssiconfigfile:
-  file:
-    - replace
-    - name: /home/jon/.irssi/config
-    - pattern: ".*core = .*"
-    - repl: " core = { real_name = \"Juan\"; user_name = \"jon\"; nick = \"wincus\"; };"
-    - dryrun: false
-    - require:
-      - pkg: irssi
+/home/jon/.irssi/config:
+  file.symlink:
+    - target: /home/jon/20-PersonalConfig/irssi/config
+    - force: true
