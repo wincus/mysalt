@@ -18,10 +18,17 @@ mopidy-spotify:
   pkg.latest:
     - refresh: True
 
+/home/jon/.config/mopidy:
+  file.directory:
+    - user: jon
+    - group: jon
+
 /home/jon/.config/mopidy/mopidy.conf:
   file.symlink:
     - target: /home/jon/20-PersonalConfig/mopidy/mopidy.conf
     - force: True
+    - require:
+        - file: /home/jon/.config/mopidy
 
 /etc/mopidy/mopidy.conf:
   file.symlink:
