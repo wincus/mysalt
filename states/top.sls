@@ -9,6 +9,7 @@ base:
     - openssh
     - bash
     - mopidy
+    - irssi
 
   'mac':
     - vim
@@ -16,3 +17,5 @@ base:
     - byobu
     - openssh
     - bash
+    - mopidy
+    - irsii
