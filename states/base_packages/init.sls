@@ -23,5 +23,6 @@ mypkgs:
       - mutt
       - urlview
       - mc
+      - ipython
       - skype # this requires trusty/partner repository enabled
               # aka deb http://archive.canonical.com/ubuntu trusty partner
