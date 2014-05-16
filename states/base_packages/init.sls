@@ -24,5 +24,6 @@ mypkgs:
       - urlview
       - mc
       - ipython
+      - fabric
       - skype # this requires trusty/partner repository enabled
               # aka deb http://archive.canonical.com/ubuntu trusty partner
