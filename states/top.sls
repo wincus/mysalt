@@ -10,6 +10,8 @@ base:
     - bash
     - mopidy
     - irssi
+    - unity
+    - firefox
 
   'mac':
     - vim
@@ -19,3 +21,5 @@ base:
     - bash
     - mopidy
     - irssi
+    - unity
+    - firefox

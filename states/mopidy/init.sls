@@ -11,12 +11,10 @@ mopidyrepo:
       - pkg: mopidy-spotify
 
 mopidy:
-  pkg.latest:
-    - refresh: True
+  pkg.latest
 
 mopidy-spotify:
-  pkg.latest:
-    - refresh: True
+  pkg.latest
 
 /home/jon/.config/mopidy:
   file.directory:
@@ -26,7 +24,6 @@ mopidy-spotify:
 /home/jon/.config/mopidy/mopidy.conf:
   file.symlink:
     - target: /home/jon/20-PersonalConfig/mopidy/mopidy.conf
-    - force: True
     - require:
         - file: /home/jon/.config/mopidy
 
