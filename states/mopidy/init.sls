@@ -11,7 +11,10 @@ mopidyrepo:
       - pkg: mopidy-spotify
 
 mopidy:
-  pkg.latest
+  pkg:
+    - latest
+  service:
+    - dead
 
 mopidy-spotify:
   pkg.latest
