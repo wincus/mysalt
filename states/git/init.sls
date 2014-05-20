@@ -7,7 +7,7 @@ git:
     - managed
     - source: salt://git/config
     - user: jon
-    - gtoup: jon
+    - group: jon
     - template: jinja
     - makedirs: true
     - require:

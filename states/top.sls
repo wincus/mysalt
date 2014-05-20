@@ -12,6 +12,7 @@ base:
     - irssi
     - unity
     - firefox
+    - git
 
   'mac':
     - vim
@@ -23,3 +24,6 @@ base:
     - irssi
     - unity
     - firefox
+    - b43firmware
+    - hidapple
+    - git
