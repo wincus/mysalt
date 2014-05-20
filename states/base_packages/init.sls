@@ -10,7 +10,6 @@ mypkgs:
       - youtube-dl
       - mplayer
       - revelation
-      - git
       - tcpdump
       - irssi
       - whois

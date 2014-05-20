@@ -1,3 +1,6 @@
 [user]
 	name = Juan A. Moyano
-	email = jmoyano@silice.biz
+	email = wincus@gmail.com
+
+[core]
+	editor = vim
