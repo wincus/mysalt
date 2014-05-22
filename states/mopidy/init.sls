@@ -12,28 +12,24 @@ mopidyrepo:
 
 mopidy:
   pkg:
-    - latest
+    - installed
   service:
-    - dead
+    - running
+    - watch:
+      - file: /etc/mopidy/mopidy.conf
+      - pkg: mopidy
+      - pkg: mopidy-spotify
 
 mopidy-spotify:
-  pkg.latest
-
-/home/jon/.config/mopidy:
-  file.directory:
-    - user: jon
-    - group: jon
-
-/home/jon/.config/mopidy/mopidy.conf:
-  file.symlink:
-    - target: /home/jon/20-PersonalConfig/mopidy/mopidy.conf
-    - require:
-        - file: /home/jon/.config/mopidy
+  pkg.installed
 
 /etc/mopidy/mopidy.conf:
-  file.symlink:
-    - target: /home/jon/20-PersonalConfig/mopidy/mopidy.conf
+  file.managed:
+    - source: salt://mopidy/mopidy.conf
     - force: True
+    - user: mopidy
+    - group: audio
+    - template: jinja
 
 ncmpcpp:
   pkg.installed
