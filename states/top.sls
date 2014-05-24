@@ -13,6 +13,7 @@ base:
     - unity
     - firefox
     - git
+    - sudo
 
   'mac':
     - vim
@@ -28,3 +29,4 @@ base:
     - hidapple
     - git
     - docker
+    - sudo
