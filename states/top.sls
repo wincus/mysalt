@@ -27,3 +27,4 @@ base:
     - b43firmware
     - hidapple
     - git
+    - docker
