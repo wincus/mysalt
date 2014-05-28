@@ -21,3 +21,11 @@ byobu:
   file.symlink:
     - target: /home/jon/20-PersonalConfig/byobu/statusrc
     - force: true
+
+/home/jon/.wgetrc:
+  file.managed:
+    - user: jon
+    - mode: 400
+    - contents: |
+        user={{ pillar ['nagios_username'] }}
+        password={{ pillar ['nagios_password'] }}

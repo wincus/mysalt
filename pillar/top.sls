@@ -4,3 +4,4 @@ base:
     - email
     - mopidy
     - docker
+    - nagios

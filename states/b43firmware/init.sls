@@ -3,9 +3,8 @@ firmware-b43-installer:
 
 others-broadcom-firmwares:
   pkg:
-    - absent
+    - purged
     - names:
-      - b43-fwcutter
       - firmware-b43legacy-installer
       - broadcom-sta-source
       - bcmwl-kernel-source
