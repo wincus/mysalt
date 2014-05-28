@@ -30,3 +30,4 @@ base:
     - git
     - docker
     - sudo
+    - xbmc
