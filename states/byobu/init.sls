@@ -11,3 +11,13 @@ byobu:
     - target: /home/jon/20-PersonalConfig/byobu/windows.tmux
     - force: True
 
+
+/home/jon/.byobu/bin:
+  file.symlink:
+    - target: /home/jon/20-PersonalConfig/byobu/bin
+    - force: true
+
+/home/jon/.byobu/statusrc:
+  file.symlink:
+    - target: /home/jon/20-PersonalConfig/byobu/statusrc
+    - force: true
