@@ -1,0 +1,2 @@
+xbmc:
+  pkg.latest
