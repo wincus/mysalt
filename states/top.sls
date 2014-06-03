@@ -15,6 +15,7 @@ base:
     - git
     - sudo
     - vpn
+    - spotify
 
   'mac':
     - vim
@@ -33,3 +34,4 @@ base:
     - sudo
     - xbmc
     - vpn
+    - spotify
