@@ -14,6 +14,7 @@ base:
     - firefox
     - git
     - sudo
+    - vpn
 
   'mac':
     - vim
@@ -31,3 +32,4 @@ base:
     - docker
     - sudo
     - xbmc
+    - vpn
