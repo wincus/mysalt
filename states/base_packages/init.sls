@@ -26,6 +26,10 @@ mypkgs:
       - fabric
       - virt-viewer
       - tshark
+      - dtrx  
+      - dstat 
+      - autojump
+      - ngrep 
       - skype # this requires trusty/partner repository enabled
               # aka deb http://archive.canonical.com/ubuntu trusty partner
               # I hate this, why do they make me use it anyway?
