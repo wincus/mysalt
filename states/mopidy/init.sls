@@ -14,7 +14,7 @@ mopidy:
   pkg:
     - installed
   service:
-    - running
+    - dead
     - watch:
       - file: /etc/mopidy/mopidy.conf
       - pkg: mopidy
