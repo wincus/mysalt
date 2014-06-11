@@ -16,6 +16,7 @@ base:
     - sudo
     - vpn
     - spotify
+    - gnupg
 
   'mac':
     - vim
@@ -35,3 +36,4 @@ base:
     - xbmc
     - vpn
     - spotify
+    - gnupg
