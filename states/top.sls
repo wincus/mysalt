@@ -17,6 +17,7 @@ base:
     - vpn
     - spotify
     - gnupg
+    - nm
 
   'mac':
     - vim
@@ -37,3 +38,4 @@ base:
     - vpn
     - spotify
     - gnupg
+    - nm
