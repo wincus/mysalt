@@ -12,7 +12,7 @@ mopidyrepo:
 
 mopidy:
   pkg:
-    - installed
+    - removed
   service:
     - dead
     - watch:
@@ -21,7 +21,7 @@ mopidy:
       - pkg: mopidy-spotify
 
 mopidy-spotify:
-  pkg.installed
+  pkg.removed
 
 /etc/mopidy/mopidy.conf:
   file.managed:
