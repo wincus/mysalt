@@ -24,7 +24,7 @@ mopidy-spotify:
   pkg.removed
 
 /etc/mopidy/mopidy.conf:
-  file.managed:
+  file.absent:
     - source: salt://mopidy/mopidy.conf
     - force: True
     - user: mopidy
