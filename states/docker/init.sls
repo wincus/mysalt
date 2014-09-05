@@ -24,9 +24,9 @@ docker:
 /etc/default/docker.io:
   file.append:
     {% if grains['fqdn'] == 'inspiron' %}
-    - text: DOCKER_OPTS="-dns 8.8.8.8 -dns 8.8.4.4 -g /home/virtuales/docker"
+    - text: DOCKER_OPTS="--dns 8.8.8.8 --dns 8.8.4.4 -g /home/virtuales/docker"
     {% else %}
-    - text: DOCKER_OPTS="-dns 8.8.8.8 -dns 8.8.4.4"
+    - text: DOCKER_OPTS="--dns 8.8.8.8 --dns 8.8.4.4"
     {% endif %}
     - require:
       - pkg: docker
