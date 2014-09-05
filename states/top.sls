@@ -18,6 +18,7 @@ base:
     - spotify
     - gnupg
     - nm
+    - docker
 
   'mac':
     - vim
