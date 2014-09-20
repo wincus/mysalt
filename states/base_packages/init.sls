@@ -30,6 +30,7 @@ mypkgs:
       - dstat 
       - autojump
       - ngrep 
+      - python-virtualenv
       - mysql-workbench # I hate to need you, but I do ...
       - skype # this requires trusty/partner repository enabled
               # aka deb http://archive.canonical.com/ubuntu trusty partner

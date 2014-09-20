@@ -40,3 +40,21 @@ base:
     - spotify
     - gnupg
     - nm
+
+
+  'hp':
+    - vim
+    - base_packages
+    - byobu
+    - openssh
+    - bash
+    - irssi
+    - unity
+    - firefox
+    - git
+    - docker
+    - sudo
+    - vpn
+    - spotify
+    - gnupg
+    - nm
