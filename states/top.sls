@@ -1,3 +1,5 @@
+# falta pip install jira
+
 base:
   'inspiron':
     - vim

@@ -24,6 +24,8 @@ mypkgs:
       - mc
       - ipython
       - fabric
+      - libvirt-bin
+      - virt-manager
       - virt-viewer
       - tshark
       - dtrx  
