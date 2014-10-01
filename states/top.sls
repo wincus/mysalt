@@ -21,6 +21,7 @@ base:
     - gnupg
     - nm
     - docker
+    - python-jira
 
   'mac':
     - vim
@@ -42,6 +43,7 @@ base:
     - spotify
     - gnupg
     - nm
+    - python-jira
 
 
   'hp':
@@ -60,3 +62,4 @@ base:
     - spotify
     - gnupg
     - nm
+    - python-jira
