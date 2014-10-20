@@ -20,6 +20,7 @@ base:
     - nm
     - docker
     - python-jira
+    - heroku
 
   'mac':
     - vim
@@ -61,3 +62,4 @@ base:
     - gnupg
     - nm
     - python-jira
+    - heroku
