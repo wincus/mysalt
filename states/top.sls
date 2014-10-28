@@ -8,7 +8,6 @@ base:
     - byobu
     - openssh
     - bash
-    - mopidy
     - irssi
     - unity
     - firefox

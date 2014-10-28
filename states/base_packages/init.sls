@@ -8,7 +8,11 @@ mypkgs:
       - vorbis-tools
       - subversion
       - youtube-dl
+      {% if grains['lsb_distrib_release'] == '14.10' %}
+      - mplayer2
+      {% else %}
       - mplayer
+      {% endif %}
       - revelation
       - tcpdump
       - irssi
