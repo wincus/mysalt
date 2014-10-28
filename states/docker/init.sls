@@ -4,10 +4,10 @@ docker:
     - name: docker.io
   service:
     - running
-    - name: docker.io
+    - name: docker
     - watch:
       - file: /home/jon/.dockercfg
-      - file: /etc/default/docker.io
+      - file: /etc/default/docker
     - require:
       - pkg: docker
 
@@ -21,7 +21,7 @@ docker:
     - force: True
     - template: jinja
 
-/etc/default/docker.io:
+/etc/default/docker:
   file.append:
     {% if grains['fqdn'] == 'inspiron' %}
     - text: DOCKER_OPTS="--dns 8.8.8.8 --dns 8.8.4.4 -g /home/virtuales/docker"

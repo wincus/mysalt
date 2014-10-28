@@ -3,7 +3,7 @@ base:
     - vim
     - base_packages
     {% if grains['virtual'] == 'physical' %}
-    - kvm
+    - qemu-kvm
     {% endif %}
     - byobu
     - openssh
