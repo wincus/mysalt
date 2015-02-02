@@ -44,6 +44,7 @@ mypkgs:
       - pinpoint
       - m4
       - vlock
+      - cmatrix
 
 # things I don't like to have installed
 notmypkgs:
