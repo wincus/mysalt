@@ -20,6 +20,7 @@ base:
     - docker
     - python-jira
     - heroku
+    - mailcap
 
   'mac':
     - vim
@@ -42,7 +43,7 @@ base:
     - gnupg
     - nm
     - python-jira
-
+    - mailcap
 
   'hp':
     - vim
@@ -62,3 +63,4 @@ base:
     - nm
     - python-jira
     - heroku
+    - mailcap
