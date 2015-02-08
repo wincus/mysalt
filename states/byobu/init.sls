@@ -29,3 +29,9 @@ byobu:
     - contents: |
         user={{ pillar ['nagios_username'] }}
         password={{ pillar ['nagios_password'] }}
+
+beautifulsoup4:
+  pip.installed
+
+requests:
+  pip.installed
