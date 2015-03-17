@@ -45,6 +45,7 @@ mypkgs:
       - m4
       - vlock
       - cmatrix
+      - gimp
 
 # things I don't like to have installed
 notmypkgs:

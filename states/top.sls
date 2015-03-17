@@ -21,6 +21,7 @@ base:
     - python-jira
     - heroku
     - mailcap
+    - vncviewer
 
   'mac':
     - vim
@@ -44,6 +45,7 @@ base:
     - nm
     - python-jira
     - mailcap
+    - vncviewer
 
   'hp':
     - vim
@@ -64,3 +66,4 @@ base:
     - python-jira
     - heroku
     - mailcap
+    - vncviewer
