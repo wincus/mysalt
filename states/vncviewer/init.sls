@@ -1,0 +1,2 @@
+vncviewer:
+  pkg.installed
